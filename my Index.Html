@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        My First Web Page
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Logo -->
+    <Div id="navbar">
+        <img src="https://th.bing.com/th?id=OIP.AfKMLf4rKX7EqOSAVpujIQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+            alt="adara logo" id="logo" height="30px">
+    </Div>
+
+    <!-- Banner -->
+    <img src="Banner.jpg" alt="Banner" height="240" width="100% margin: 0; padding: 0; object-fit cover;">
+
+    <!-- Using style attribute to align @ center And color -->
+    <h1 style="text-align: center; color: indigo; font-family: sans-serif;"> ABOUT ADARA</h1>
+
+    <div id="about" style="display: flex; max-width: 800px; margin: 0 auto; padding: 8px;">
+        <div style="width: 50%; padding: 0 8px;" id="description">
+
+            <!-- About a company using tags such as (b,to make it bold)(u, to underline)etc -->
+            <p style="margin-top: 02wq;">At <u>ADARA</u>, we're on a mission to <em>build</em> build the world's most
+                highly reputed technical
+                university,and we're building completely online. we offer several beginner friendly course that are
+                taken by
+                <b>300,000</b> + registered users.
+            </p>
+
+            <p>We also offer 2 industry-focused bootcamps:</p>
+
+            <!-- What Adara offer using An Ordered Html List with Link -->
+            <ol>
+                <li>
+                    <!-- A link which you can click to another page and css to remove underline -->
+                    <a style="text-decoration: none;" href="https://jovian.com/learn/sql-and-business-intelligence">
+                        Adara Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <!-- A link which you can click to another page and css to remove underline -->
+                    <a style="text-decoration: none;"
+                        href="https://jovian.com/learn/web-development-with-python-and-flask">
+                        Adara Web Development with html and css
+                    </a>
+                </li>
+            </ol>
+        </div>
+
+        <!-- image as the teams -->
+        <div style="width: 50%;" id="team">
+            <img style="border-radius: 10px;" src="Team.jpg" alt="Team" width="100%">
+        </div>
+    </div>
+
+
+    <!-- Job Opportunity With Location -->
+    <h2 style="text-align: center;">Job Opportunity</h2>
+
+    <div style="max-width: 800px; margin: 0 auto; padding: 0 8px;" id="jobs">
+        <div>
+            <!-- Apply Process -->
+            <a style="float: right;" href="" class="Apply">Apply</a>
+
+            <!-- Job Header -->
+            <h2 class="job-role" style="margin-bottom: 0; margin-top: 0;">Front Developer</h2>
+
+            <!-- Location Process -->
+            <div style="margin-bottom: 16px; color: rgb(13, 212, 86);">Etche Rivers State, Nigeria</div>
+        </div>
+        <div>
+            <!-- Apply Process -->
+            <a style="float: right;" href="" class="Apply">Apply</a>
+
+            <!-- Job Header -->
+            <h2 class="job-role" style="margin-bottom: 0; margin-top: 0;">Back Developer</h2>
+
+            <!-- Location Process -->
+            <div style="margin-bottom: 16px; color:rgb(14, 197, 96)">Rivers State, Nigeria</div>
+        </div>
+        <div>
+            <!-- Apply Process -->
+            <a style="float: right;" href="" class="Apply">Apply</a>
+
+            <!-- Job Header -->
+            <h2 class="job-role" style="margin-bottom: 0; margin-top: 0;">Data Scientists</h2>
+
+            <!-- Location Process -->
+            <div style="margin-bottom: 16px; color: rgb(12, 211, 35);">Rivers State, Nigeria</div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- An Unordered Html List With Link -->
+    <div>
+        <ul>
+            <li>
+                <a href="https://jovian.com/lean" target="_course">
+                    Course
+                </a>
+            </li>
+
+            <li>
+                <a href="https://jovian.com/learn/sql-and-business-intelligence" target="_course">
+                    Programs
+                </a>
+            </li>
+
+            <li>
+                <a href="https://jovian.com/learn/sql-and-business-intelligence" target="_course">
+                    Youtube
+                </a>
+            </li>
+            <li style="list-style: none;">Facaebook</li>
+        </ul>
+    </div>
+
+    <!-- Copyrite -->
+    <p id="Copyrite"> © 2023, ADARA </p>
+    <br><br>
+    <br><br>
+
+    <div class="subscription-box">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </div>
+
+    <title>Subscription Box</title>
+    <style>
+        .subscription-box {
+            width: 300px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .subscription-box input[type="email"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .subscription-box button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        .subscription-box button:hover {
+            background-color: #218838;
+        }
+    </style>
+
+
+
+</body>
+
+</html>
